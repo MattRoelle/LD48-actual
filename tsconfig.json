@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "jsx": "react",
+    "outDir": "./dist/",
+    "noImplicitAny": true,
+    "lib": [
+      "DOM",
+      "ES2019"
+    ],
+    "module": "es6",
+    "esModuleInterop": true,
+    "sourceMap": true,
+    "allowSyntheticDefaultImports": true,
+    "declaration": true,
+    "noEmitOnError": true,
+    "allowJs": false,
+    "resolveJsonModule": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "target": "es5",
+    "typeRoots": [
+      "node_modules/phaser/types",
+      "./src/types.d.ts"
+    ],
+    "types": [
+      "mocha",
+      "chai"
+    ],
+    "moduleResolution": "node",
+  },
+}
